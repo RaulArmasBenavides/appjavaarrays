@@ -32,8 +32,8 @@ public class InmobiliariaTest {
         c.setAmocoche(y.readLine().charAt(0));
         c.CalcularIncremento();
         c.CalcularAdicional();
-        c.calcularPrecio();
-        c.calcularTotal();
+        c.calcularPrecioConIncremento();//inclue incremento
+        c.calcularTotal();//inclueye adicional
         c.imprimir();
         
         

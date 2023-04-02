@@ -53,8 +53,8 @@ public class Casa extends AbstractVivienda {
                 incremento = 0.30*getPrecio();
         }    
     }
-    @Override
-    public void calcularPrecio(){
+
+    public void calcularPrecioConIncremento(){
         setPrecio(getPrecio()+incremento);
     }
     @Override

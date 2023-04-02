@@ -8,7 +8,7 @@ package pe.egcc.app.entity;
  *
  * @author dyarm
  */
-public abstract class Figura {
+public abstract class AbstractFigura {
  //private int area;
     
 }
